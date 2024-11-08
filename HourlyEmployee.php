@@ -19,7 +19,7 @@ class HourlyEmployee extends Employee {
         return $this->hoursWorked;
     }
 
-    public function getHourlyRate {
+    public function getHourlyRate() {
         return $this->hourlyRate;
     }
 }
